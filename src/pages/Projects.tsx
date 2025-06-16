@@ -22,7 +22,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Slope Missile",
+      title: "Slope Master",
       description: "Developed a slope-based ball game using Arduino to control moving obstacles, provide feedback on successful attacks. Gained experience in embedded systems, system control, and collaborative project work.",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
       tags: ["Arduino", "Embedded Systems", "Control Systems", "Game Development"],
