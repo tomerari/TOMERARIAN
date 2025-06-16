@@ -14,9 +14,9 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative" style={{ zIndex: 3 }}>
         <div className="text-center">
           <div className="animate-fade-in">
-            {/* Profile image placeholder */}
-            <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-br from-blue-400 to-indigo-600 flex items-center justify-center text-white text-4xl font-bold shadow-2xl">
-              ME
+            {/* Your profile image - replace this placeholder with your actual photo */}
+            <div className="w-40 h-40 mx-auto mb-8 rounded-full bg-gradient-to-br from-blue-400 to-indigo-600 flex items-center justify-center text-white text-lg font-bold shadow-2xl border-4 border-white/20">
+              Your Photo Here
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
@@ -46,13 +46,13 @@ const Hero = () => {
               <FolderOpen size={20} />
               <span>View Projects</span>
             </Link>
-            <Link
-              to="/about"
+            <a
+              href="mailto:your.email@example.com"
               className="bg-transparent border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-8 py-4 rounded-xl font-semibold flex items-center space-x-2 transition-all duration-300 transform hover:scale-105"
             >
               <Mail size={20} />
               <span>Contact Me</span>
-            </Link>
+            </a>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto animate-fade-in">
