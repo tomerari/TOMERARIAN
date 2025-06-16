@@ -22,7 +22,7 @@ const Hero = () => {
             
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
               Tomer Arian
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400 block py-0 px-0 my-0 font-normal text-6xl">Mechanical Engineer Student</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400 block px-0 my-0 font-normal text-6xl py-[10px]">Mechanical Engineer Student</span>
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
               Motivated analytical problem solver with a strong ability to learn quickly 
