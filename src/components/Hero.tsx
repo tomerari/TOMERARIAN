@@ -1,32 +1,28 @@
 import { FileText, FolderOpen, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ParticleBackground from './ParticleBackground';
-
 const Hero = () => {
-  return (
-    <section className="bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 min-h-screen flex items-center relative overflow-hidden">
+  return <section className="bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900 min-h-screen flex items-center relative overflow-hidden">
       <ParticleBackground />
       
       {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-indigo-900/40" style={{ zIndex: 2 }} />
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-indigo-900/40" style={{
+      zIndex: 2
+    }} />
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative" style={{ zIndex: 3 }}>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative" style={{
+      zIndex: 3
+    }}>
         <div className="text-center">
           <div className="animate-fade-in">
             {/* Your actual profile photo */}
             <div className="w-40 h-40 mx-auto mb-8 rounded-full overflow-hidden shadow-2xl border-4 border-white/20">
-              <img 
-                src="/lovable-uploads/02d759e2-2f3e-42a2-b224-103a64f6ce5c.png" 
-                alt="Tomer Arian"
-                className="w-full h-full object-cover"
-              />
+              <img src="/lovable-uploads/02d759e2-2f3e-42a2-b224-103a64f6ce5c.png" alt="Tomer Arian" className="w-full h-full object-cover" />
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
               Tomer Arian
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400 block">
-                Mechanical Engineer
-              </span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400 block py-0 px-0 my-0 font-normal text-6xl">Mechanical Engineer Student</span>
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
               Motivated analytical problem solver with a strong ability to learn quickly 
@@ -35,24 +31,15 @@ const Hero = () => {
           </div>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 animate-fade-in">
-            <Link
-              to="/resume"
-              className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-xl font-semibold flex items-center space-x-2 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
-            >
+            <Link to="/resume" className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-8 py-4 rounded-xl font-semibold flex items-center space-x-2 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
               <FileText size={20} />
               <span>View Resume</span>
             </Link>
-            <Link
-              to="/projects"
-              className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border-2 border-white/30 px-8 py-4 rounded-xl font-semibold flex items-center space-x-2 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl"
-            >
+            <Link to="/projects" className="bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white border-2 border-white/30 px-8 py-4 rounded-xl font-semibold flex items-center space-x-2 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl">
               <FolderOpen size={20} />
               <span>View Projects</span>
             </Link>
-            <a
-              href="mailto:tomerarian558@gmail.com"
-              className="bg-transparent border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-8 py-4 rounded-xl font-semibold flex items-center space-x-2 transition-all duration-300 transform hover:scale-105"
-            >
+            <a href="mailto:tomerarian558@gmail.com" className="bg-transparent border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-8 py-4 rounded-xl font-semibold flex items-center space-x-2 transition-all duration-300 transform hover:scale-105">
               <Mail size={20} />
               <span>Contact Me</span>
             </a>
@@ -92,8 +79,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
