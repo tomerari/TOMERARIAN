@@ -1,4 +1,3 @@
-
 import { FileText, FolderOpen, Mail } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import ParticleBackground from './ParticleBackground';
@@ -14,20 +13,24 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative" style={{ zIndex: 3 }}>
         <div className="text-center">
           <div className="animate-fade-in">
-            {/* Your profile image - replace this placeholder with your actual photo */}
-            <div className="w-40 h-40 mx-auto mb-8 rounded-full bg-gradient-to-br from-blue-400 to-indigo-600 flex items-center justify-center text-white text-lg font-bold shadow-2xl border-4 border-white/20">
-              Your Photo Here
+            {/* Your actual profile photo */}
+            <div className="w-40 h-40 mx-auto mb-8 rounded-full overflow-hidden shadow-2xl border-4 border-white/20">
+              <img 
+                src="/lovable-uploads/02d759e2-2f3e-42a2-b224-103a64f6ce5c.png" 
+                alt="Tomer Arian"
+                className="w-full h-full object-cover"
+              />
             </div>
             
             <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-              Mechanical Engineer
+              Tomer Arian
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400 block">
-                Ready to Innovate
+                Mechanical Engineer
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-blue-100 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Passionate about designing solutions that move the world forward. 
-              Experienced in CAD, manufacturing, and project management.
+              Motivated analytical problem solver with a strong ability to learn quickly 
+              and adapt to new challenges. Experienced in small-scale projects with hands-on approach.
             </p>
           </div>
           
@@ -47,7 +50,7 @@ const Hero = () => {
               <span>View Projects</span>
             </Link>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:tomerarian558@gmail.com"
               className="bg-transparent border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-8 py-4 rounded-xl font-semibold flex items-center space-x-2 transition-all duration-300 transform hover:scale-105"
             >
               <Mail size={20} />
