@@ -1,11 +1,8 @@
-
 import Navigation from '../components/Navigation';
 import ParticleBackground from '../components/ParticleBackground';
 import { Download, FileText, Calendar, MapPin, Mail, Phone } from 'lucide-react';
-
 const Resume = () => {
-  return (
-    <div className="min-h-screen relative">
+  return <div className="min-h-screen relative">
       <ParticleBackground />
       <Navigation />
       
@@ -26,11 +23,11 @@ const Resume = () => {
               <div className="flex flex-wrap justify-center gap-4 text-gray-600">
                 <div className="flex items-center space-x-1">
                   <Mail size={16} />
-                  <span>tomerarian558@gmail.com</span>
+                  <span>tomerarian55@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-1">
                   <Phone size={16} />
-                  <span>+972-54-123-4567</span>
+                  <span>+972-54-341-1356</span>
                 </div>
                 <div className="flex items-center space-x-1">
                   <MapPin size={16} />
@@ -49,7 +46,7 @@ const Resume = () => {
                   <div className="flex justify-between items-start mb-2">
                     <div>
                       <h4 className="text-xl font-semibold text-gray-900">Bachelor of Science in Mechanical Engineering</h4>
-                      <p className="text-blue-600 font-medium">University Name</p>
+                      <p className="text-blue-600 font-medium">Tel Aviv University</p>
                     </div>
                     <span className="text-gray-500 flex items-center">
                       <Calendar size={16} className="mr-1" />
@@ -117,27 +114,21 @@ const Resume = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">CAD Software</h4>
                     <div className="space-y-1">
-                      {['SolidWorks', 'AutoCAD', 'Technical Drawings'].map((skill) => (
-                        <div key={skill} className="text-gray-700">{skill}</div>
-                      ))}
+                      {['SolidWorks', 'AutoCAD', 'Technical Drawings'].map(skill => <div key={skill} className="text-gray-700">{skill}</div>)}
                     </div>
                   </div>
 
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Programming</h4>
                     <div className="space-y-1">
-                      {['Arduino', 'C++', 'Embedded Systems'].map((skill) => (
-                        <div key={skill} className="text-gray-700">{skill}</div>
-                      ))}
+                      {['Arduino', 'C++', 'Embedded Systems'].map(skill => <div key={skill} className="text-gray-700">{skill}</div>)}
                     </div>
                   </div>
 
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Engineering</h4>
                     <div className="space-y-1">
-                      {['Mechanical Design', 'Control Systems', 'Gear Systems', 'System Integration'].map((skill) => (
-                        <div key={skill} className="text-gray-700">{skill}</div>
-                      ))}
+                      {['Mechanical Design', 'Control Systems', 'Gear Systems', 'System Integration'].map(skill => <div key={skill} className="text-gray-700">{skill}</div>)}
                     </div>
                   </div>
                 </div>
@@ -147,21 +138,13 @@ const Resume = () => {
                 <h3 className="text-2xl font-bold text-gray-900 mb-6 border-b-2 border-blue-600 pb-2">Languages</h3>
                 
                 <div className="space-y-3">
-                  {[
-                    'Hebrew (Native)',
-                    'English (Fluent)',
-                    'Arabic (Basic)'
-                  ].map((lang) => (
-                    <div key={lang} className="text-gray-700">{lang}</div>
-                  ))}
+                  {['Hebrew (Native)', 'English (Fluent)', 'Arabic (Basic)'].map(lang => <div key={lang} className="text-gray-700">{lang}</div>)}
                 </div>
               </section>
             </div>
           </div>
         </div>
       </main>
-    </div>
-  );
+    </div>;
 };
-
 export default Resume;
