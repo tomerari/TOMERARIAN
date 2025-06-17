@@ -1,7 +1,7 @@
 
 import Navigation from '../components/Navigation';
 import ParticleBackground from '../components/ParticleBackground';
-import { Github, ExternalLink, Calendar, Tag } from 'lucide-react';
+import { Calendar, Tag } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
@@ -12,7 +12,6 @@ const Projects = () => {
       image: "/lovable-uploads/d8c03771-5491-48b8-ab34-a55a8057ae3b.png",
       tags: ["Arduino", "Embedded Systems", "Control Systems", "Game Development"],
       date: "2024",
-      duration: "Project Duration",
       details: [
         "Programmed Arduino microcontroller for game logic",
         "Designed moving obstacle control mechanisms",
@@ -28,7 +27,6 @@ const Projects = () => {
       image: "/lovable-uploads/8524d847-17dd-474b-a254-af10b4c5ad2f.png",
       tags: ["SolidWorks", "Mechanical Design", "Gears", "Technical Drawings"],
       date: "2023",
-      duration: "Project Duration",
       details: [
         "Designed complete mechanical system using SolidWorks",
         "Created detailed technical drawings and documentation",
@@ -110,20 +108,6 @@ const Projects = () => {
                         </div>
                       </div>
                     </div>
-                    
-                    <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-                      <span className="text-sm text-gray-500">Duration: {project.duration}</span>
-                      <div className="flex space-x-3">
-                        <button className="text-blue-600 hover:text-blue-700 font-medium text-sm flex items-center space-x-1 transition-colors">
-                          <Github size={16} />
-                          <span>View Code</span>
-                        </button>
-                        <button className="text-blue-600 hover:text-blue-700 font-medium text-sm flex items-center space-x-1 transition-colors">
-                          <ExternalLink size={16} />
-                          <span>Learn More</span>
-                        </button>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -141,7 +125,6 @@ const Projects = () => {
                 className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold inline-flex items-center space-x-2 transition-all duration-200 transform hover:scale-105"
               >
                 <span>Get In Touch</span>
-                <ExternalLink size={20} />
               </a>
             </div>
           </div>
