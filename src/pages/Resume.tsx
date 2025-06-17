@@ -1,11 +1,8 @@
-
 import Navigation from '../components/Navigation';
 import ParticleBackground from '../components/ParticleBackground';
 import { Download, FileText, Calendar, MapPin, Mail, Phone } from 'lucide-react';
-
 const Resume = () => {
-  return (
-    <div className="min-h-screen relative">
+  return <div className="min-h-screen relative">
       <ParticleBackground />
       <Navigation />
       
@@ -90,7 +87,7 @@ const Resume = () => {
                   <div>
                     <div className="flex justify-between items-start mb-2">
                       <div>
-                        <h4 className="text-xl font-semibold text-gray-900">Slope Missile</h4>
+                        <h4 className="text-xl font-semibold text-gray-900">Slope Master</h4>
                         <p className="text-blue-600 font-medium">Arduino Game Development</p>
                       </div>
                       <span className="text-gray-500 flex items-center">
@@ -141,17 +138,13 @@ const Resume = () => {
                 <h3 className="text-2xl font-bold text-gray-900 mb-6 border-b-2 border-blue-600 pb-2">Languages</h3>
                 
                 <div className="space-y-3">
-                  {['Hebrew (Native)', 'English (Fluent)', 'Russian (Conversational)', 'Arabic (Basic)'].map(lang => (
-                    <div key={lang} className="text-gray-700">{lang}</div>
-                  ))}
+                  {['Hebrew (Native)', 'English (Fluent)', 'Russian (Conversational)', 'Arabic (Basic)'].map(lang => <div key={lang} className="text-gray-700">{lang}</div>)}
                 </div>
               </section>
             </div>
           </div>
         </div>
       </main>
-    </div>
-  );
+    </div>;
 };
-
 export default Resume;
