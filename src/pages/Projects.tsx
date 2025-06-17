@@ -1,4 +1,3 @@
-
 import Navigation from '../components/Navigation';
 import ParticleBackground from '../components/ParticleBackground';
 import { Github, ExternalLink, Calendar, Tag } from 'lucide-react';
@@ -23,9 +22,9 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Slope Missile",
+      title: "Slope Master",
       description: "Developed a slope-based ball game using Arduino to control moving obstacles, provide feedback on successful attacks. Gained experience in embedded systems, system control, and collaborative project work.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
+      image: "/lovable-uploads/d8c03771-5491-48b8-ab34-a55a8057ae3b.png",
       tags: ["Arduino", "Embedded Systems", "Control Systems", "Game Development"],
       date: "2022",
       duration: "Project Duration",
