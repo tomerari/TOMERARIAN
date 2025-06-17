@@ -1,3 +1,4 @@
+
 import Navigation from '../components/Navigation';
 import ParticleBackground from '../components/ParticleBackground';
 import { Github, ExternalLink, Calendar, Tag } from 'lucide-react';
@@ -6,6 +7,22 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "Slope Master",
+      description: "Developed a slope-based ball game using Arduino to control moving obstacles, provide feedback on successful attacks. Gained experience in embedded systems, system control, and collaborative project work.",
+      image: "/lovable-uploads/d8c03771-5491-48b8-ab34-a55a8057ae3b.png",
+      tags: ["Arduino", "Embedded Systems", "Control Systems", "Game Development"],
+      date: "2024",
+      duration: "Project Duration",
+      details: [
+        "Programmed Arduino microcontroller for game logic",
+        "Designed moving obstacle control mechanisms",
+        "Implemented feedback systems for user interaction",
+        "Developed embedded software for real-time control",
+        "Applied system integration and testing methodologies"
+      ]
+    },
+    {
+      id: 2,
       title: "Lettuce Dryer",
       description: "Designed and built a mechanical lettuce dryer using SolidWorks and technical drawings, gained experience with gears and teamwork in a design project.",
       image: "/lovable-uploads/8524d847-17dd-474b-a254-af10b4c5ad2f.png",
@@ -18,22 +35,6 @@ const Projects = () => {
         "Implemented gear systems for optimal functionality",
         "Collaborated effectively in team environment",
         "Applied engineering principles to real-world application"
-      ]
-    },
-    {
-      id: 2,
-      title: "Slope Master",
-      description: "Developed a slope-based ball game using Arduino to control moving obstacles, provide feedback on successful attacks. Gained experience in embedded systems, system control, and collaborative project work.",
-      image: "/lovable-uploads/d8c03771-5491-48b8-ab34-a55a8057ae3b.png",
-      tags: ["Arduino", "Embedded Systems", "Control Systems", "Game Development"],
-      date: "2022",
-      duration: "Project Duration",
-      details: [
-        "Programmed Arduino microcontroller for game logic",
-        "Designed moving obstacle control mechanisms",
-        "Implemented feedback systems for user interaction",
-        "Developed embedded software for real-time control",
-        "Applied system integration and testing methodologies"
       ]
     }
   ];
