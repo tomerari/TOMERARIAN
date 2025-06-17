@@ -1,5 +1,6 @@
 
 import Navigation from '../components/Navigation';
+import ParticleBackground from '../components/ParticleBackground';
 import { Github, ExternalLink, Calendar, Tag } from 'lucide-react';
 
 const Projects = () => {
@@ -8,7 +9,7 @@ const Projects = () => {
       id: 1,
       title: "Lettuce Dryer",
       description: "Designed and built a mechanical lettuce dryer using SolidWorks and technical drawings, gained experience with gears and teamwork in a design project.",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop",
+      image: "/lovable-uploads/8524d847-17dd-474b-a254-af10b4c5ad2f.png",
       tags: ["SolidWorks", "Mechanical Design", "Gears", "Technical Drawings"],
       date: "2023",
       duration: "Project Duration",
@@ -22,7 +23,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Slope Master",
+      title: "Slope Missile",
       description: "Developed a slope-based ball game using Arduino to control moving obstacles, provide feedback on successful attacks. Gained experience in embedded systems, system control, and collaborative project work.",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
       tags: ["Arduino", "Embedded Systems", "Control Systems", "Game Development"],
@@ -39,14 +40,15 @@ const Projects = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen relative">
+      <ParticleBackground />
       <Navigation />
       
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <main className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="animate-fade-in">
           <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">Projects</h1>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <h1 className="text-4xl md:text-5xl font-bold text-black mb-4">Projects</h1>
+            <p className="text-xl text-gray-800 max-w-3xl mx-auto">
               A showcase of mechanical engineering projects demonstrating hands-on experience with design, 
               embedded systems, and collaborative problem-solving
             </p>
@@ -54,7 +56,7 @@ const Projects = () => {
 
           <div className="grid gap-8">
             {projects.map((project) => (
-              <div key={project.id} className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
+              <div key={project.id} className="bg-white/90 backdrop-blur-sm rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
                 <div className="grid lg:grid-cols-2 gap-0">
                   <div className="relative group">
                     <img 
