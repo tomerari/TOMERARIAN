@@ -1,8 +1,6 @@
-
 import Navigation from '../components/Navigation';
 import ParticleBackground from '../components/ParticleBackground';
 import { Download, FileText, Calendar, MapPin, Mail, Phone } from 'lucide-react';
-
 const Resume = () => {
   const handleDownloadPDF = () => {
     const link = document.createElement('a');
@@ -12,9 +10,7 @@ const Resume = () => {
     link.click();
     document.body.removeChild(link);
   };
-
-  return (
-    <div className="min-h-screen relative">
+  return <div className="min-h-screen relative">
       <ParticleBackground />
       <Navigation />
       
@@ -22,10 +18,7 @@ const Resume = () => {
         <div className="animate-fade-in">
           <div className="text-center mb-8">
             <h1 className="text-4xl md:text-5xl font-bold text-black mb-4">Resume</h1>
-            <button 
-              onClick={handleDownloadPDF}
-              className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold flex items-center space-x-2 mx-auto transition-all duration-200 transform hover:scale-105"
-            >
+            <button onClick={handleDownloadPDF} className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold flex items-center space-x-2 mx-auto transition-all duration-200 transform hover:scale-105">
               <Download size={20} />
               <span>Download PDF</span>
             </button>
@@ -173,27 +166,21 @@ const Resume = () => {
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">CAD Software</h4>
                     <div className="space-y-1">
-                      {['SolidWorks', 'AutoCAD', 'Technical Drawings', '3D Modeling'].map(skill => (
-                        <div key={skill} className="text-gray-700">{skill}</div>
-                      ))}
+                      {['SolidWorks', 'AutoCAD', 'Technical Drawings', '3D Modeling'].map(skill => <div key={skill} className="text-gray-700">{skill}</div>)}
                     </div>
                   </div>
 
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Programming</h4>
                     <div className="space-y-1">
-                      {['Arduino', 'C++', 'Embedded Systems', 'Control Programming'].map(skill => (
-                        <div key={skill} className="text-gray-700">{skill}</div>
-                      ))}
+                      {['Arduino', 'C++', 'Embedded Systems', 'Control Programming'].map(skill => <div key={skill} className="text-gray-700">{skill}</div>)}
                     </div>
                   </div>
 
                   <div>
                     <h4 className="font-semibold text-gray-900 mb-2">Engineering</h4>
                     <div className="space-y-1">
-                      {['Mechanical Design', 'Control Systems', 'Thermodynamics', 'Fluid Mechanics', 'Heat Transfer', 'Manufacturing Processes'].map(skill => (
-                        <div key={skill} className="text-gray-700">{skill}</div>
-                      ))}
+                      {['Mechanical Design', 'Control Systems', 'Thermodynamics', 'Fluid Mechanics', 'Heat Transfer', 'Manufacturing Processes'].map(skill => <div key={skill} className="text-gray-700">{skill}</div>)}
                     </div>
                   </div>
                 </div>
@@ -203,27 +190,15 @@ const Resume = () => {
                 <h3 className="text-2xl font-bold text-gray-900 mb-6 border-b-2 border-blue-600 pb-2">Languages</h3>
                 
                 <div className="space-y-3">
-                  {['Hebrew (Native)', 'English (Fluent)', 'Russian (Conversational)', 'Arabic (Basic)'].map(lang => (
-                    <div key={lang} className="text-gray-700">{lang}</div>
-                  ))}
+                  {['Hebrew (Native)', 'English (Fluent)', 'Russian (Conversational)', 'Arabic (Basic)'].map(lang => <div key={lang} className="text-gray-700">{lang}</div>)}
                 </div>
               </section>
 
-              <section className="bg-white/90 backdrop-blur-sm rounded-xl shadow-lg p-8">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6 border-b-2 border-blue-600 pb-2">Interests</h3>
-                
-                <div className="space-y-2">
-                  {['Mechanical Systems Design', 'Embedded Programming', 'Control Systems', 'Manufacturing Innovation', 'Technology Integration'].map(interest => (
-                    <div key={interest} className="text-gray-700">{interest}</div>
-                  ))}
-                </div>
-              </section>
+              
             </div>
           </div>
         </div>
       </main>
-    </div>
-  );
+    </div>;
 };
-
 export default Resume;
