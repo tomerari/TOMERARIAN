@@ -178,9 +178,9 @@ const Resume = () => {
                   </div>
 
                   <div>
-                    <h4 className="font-semibold text-gray-900 mb-2">Engineering</h4>
+                    
                     <div className="space-y-1">
-                      {['Mechanical Design', 'Control Systems', 'Thermodynamics', 'Fluid Mechanics', 'Heat Transfer', 'Manufacturing Processes'].map(skill => <div key={skill} className="text-gray-700">{skill}</div>)}
+                      {['Mechanical Design', 'Control Systems', 'Thermodynamics', 'Fluid Mechanics', 'Heat Transfer', 'Manufacturing Processes'].map(skill => {})}
                     </div>
                   </div>
                 </div>
