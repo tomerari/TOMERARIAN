@@ -14,7 +14,7 @@ const PersonalInfo = () => {
           </div>
           <div className="flex items-center space-x-1">
             <Phone size={16} />
-            <span>+972-54-341-1356</span>
+            <span>+972-53-341-1356</span>
           </div>
           <div className="flex items-center space-x-1">
             <MapPin size={16} />

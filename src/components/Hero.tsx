@@ -58,7 +58,7 @@ const Hero = () => {
                 href="https://ratings.fide.com/profile/2826682" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex items-center space-x-2 bg-blue-800 hover:bg-blue-900 text-white px-4 py-3 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105"
+                className="flex items-center space-x-2 bg-transparent hover:bg-black/10 text-black border-2 border-black px-4 py-3 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105"
               >
                 <img 
                   src="/lovable-uploads/7c02b1b5-5612-462b-a052-e921cf31f614.png" 
