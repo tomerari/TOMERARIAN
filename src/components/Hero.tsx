@@ -24,6 +24,9 @@ const Hero = () => {
             <p className="text-xl md:text-2xl text-gray-800 mb-8 max-w-2xl">
               Mechanical Engineering Student
             </p>
+            <p className="text-lg text-gray-700 mb-8 max-w-3xl leading-relaxed">
+              Motivated and analytical problem solver with a strong ability to learn quickly and adapt to new challenges. Experienced in small-scale projects, with a hands-on approach to problem-solving and process optimization. Eager to apply my knowledge and skills in a dynamic environment while continuously expanding my expertise.
+            </p>
             <p className="text-lg text-gray-700 mb-8">tomerarian55@gmail.com</p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
@@ -55,11 +58,13 @@ const Hero = () => {
                 href="https://ratings.fide.com/profile/2826682" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="flex items-center space-x-2 bg-amber-600 hover:bg-amber-700 text-white px-4 py-3 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105"
+                className="flex items-center space-x-2 bg-blue-800 hover:bg-blue-900 text-white px-4 py-3 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105"
               >
-                <div className="w-5 h-5 bg-white rounded-sm flex items-center justify-center">
-                  <span className="text-amber-600 font-bold text-xs">♔</span>
-                </div>
+                <img 
+                  src="/lovable-uploads/7c02b1b5-5612-462b-a052-e921cf31f614.png" 
+                  alt="FIDE" 
+                  className="w-5 h-5"
+                />
                 <span>FIDE</span>
               </a>
             </div>
