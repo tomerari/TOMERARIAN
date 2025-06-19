@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef } from 'react';
 
 interface Particle {
@@ -35,8 +36,8 @@ const ParticleBackground = () => {
         particlesRef.current.push({
           x: Math.random() * canvas.width,
           y: Math.random() * canvas.height,
-          vx: (Math.random() - 0.5) * 0.5,
-          vy: (Math.random() - 0.5) * 0.5,
+          vx: (Math.random() - 0.5) * 0.3, // Reduced base velocity
+          vy: (Math.random() - 0.5) * 0.3, // Reduced base velocity
           size: Math.random() * 3 + 1,
           opacity: Math.random() * 0.6 + 0.2
         });
@@ -45,15 +46,15 @@ const ParticleBackground = () => {
 
     const updateParticles = () => {
       particlesRef.current.forEach(particle => {
-        // Mouse interaction
+        // Mouse interaction with reduced force
         const dx = mouseRef.current.x - particle.x;
         const dy = mouseRef.current.y - particle.y;
         const distance = Math.sqrt(dx * dx + dy * dy);
         
         if (distance < 100) {
           const force = (100 - distance) / 100;
-          particle.vx -= (dx / distance) * force * 0.01;
-          particle.vy -= (dy / distance) * force * 0.01;
+          particle.vx -= (dx / distance) * force * 0.005; // Reduced force
+          particle.vy -= (dy / distance) * force * 0.005; // Reduced force
         }
 
         // Update position
@@ -68,9 +69,9 @@ const ParticleBackground = () => {
         particle.x = Math.max(0, Math.min(canvas.width, particle.x));
         particle.y = Math.max(0, Math.min(canvas.height, particle.y));
 
-        // Damping
-        particle.vx *= 0.99;
-        particle.vy *= 0.99;
+        // Increased damping for slower movement
+        particle.vx *= 0.995; // Increased damping
+        particle.vy *= 0.995; // Increased damping
       });
     };
 
