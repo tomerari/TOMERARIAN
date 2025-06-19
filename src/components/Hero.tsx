@@ -1,6 +1,7 @@
 
+
 import ParticleBackground from './ParticleBackground';
-import { Linkedin, Mail } from 'lucide-react';
+import { Linkedin } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -43,7 +44,7 @@ const Hero = () => {
               </a>
             </div>
 
-            <div className="flex justify-center lg:justify-start gap-6">
+            <div className="flex justify-center lg:justify-start gap-6 mb-6">
               <a 
                 href="https://www.linkedin.com/in/tomerarian/" 
                 target="_blank" 
@@ -66,13 +67,11 @@ const Hero = () => {
                 />
                 <span>FIDE</span>
               </a>
-              <a 
-                href="mailto:tomerarian55@gmail.com" 
-                className="flex items-center space-x-2 bg-transparent hover:bg-black/10 text-black border-2 border-black px-4 py-3 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105"
-              >
-                <Mail size={20} />
-                <span>Email</span>
-              </a>
+            </div>
+
+            <div className="text-center lg:text-left">
+              <p className="text-lg font-bold text-black mb-2">CONTACT ME</p>
+              <p className="text-lg text-gray-700">tomerarian55@gmail.com</p>
             </div>
           </div>
         </div>
@@ -82,3 +81,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
