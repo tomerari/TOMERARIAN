@@ -1,6 +1,6 @@
 
 import ParticleBackground from './ParticleBackground';
-import { Linkedin } from 'lucide-react';
+import { Linkedin, Mail } from 'lucide-react';
 
 const Hero = () => {
   return (
@@ -27,7 +27,6 @@ const Hero = () => {
             <p className="text-lg text-gray-700 mb-8 max-w-3xl leading-relaxed">
               Motivated and analytical problem solver with a strong ability to learn quickly and adapt to new challenges. Experienced in small-scale projects, with a hands-on approach to problem-solving and process optimization. Eager to apply my knowledge and skills in a dynamic environment while continuously expanding my expertise.
             </p>
-            <p className="text-lg text-gray-700 mb-8">tomerarian55@gmail.com</p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
               <a 
@@ -66,6 +65,13 @@ const Hero = () => {
                   className="w-5 h-5"
                 />
                 <span>FIDE</span>
+              </a>
+              <a 
+                href="mailto:tomerarian55@gmail.com" 
+                className="flex items-center space-x-2 bg-transparent hover:bg-black/10 text-black border-2 border-black px-4 py-3 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105"
+              >
+                <Mail size={20} />
+                <span>Email</span>
               </a>
             </div>
           </div>
