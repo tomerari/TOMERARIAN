@@ -24,7 +24,7 @@ const Projects = () => {
       id: 2,
       title: "Insuload",
       description: "Assisted in engineering design course for biomedical engineering, developing an innovative insulin delivery system. Gained hands-on experience in biomedical device design and engineering principles.",
-      image: "/lovable-uploads/982c65c6-3b82-4cf0-9624-1c9715f6fef6.png",
+      image: "/lovable-uploads/6522efe4-383c-46ec-9333-5c174dfbf237.png",
       tags: ["Biomedical Engineering", "Device Design", "Engineering Assistance", "Medical Technology"],
       date: "2024",
       details: [
