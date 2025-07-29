@@ -23,16 +23,16 @@ const Projects = () => {
     {
       id: 2,
       title: "Insuload",
-      description: "Assisted in engineering design course for biomedical engineering, developing an innovative insulin delivery system. Gained hands-on experience in biomedical device design and engineering principles.",
+      description: "Biomedical Engineering Project Assistant - Supported biomedical engineering students in developing final-year projects by assisting with modeling and design.",
       image: "/lovable-uploads/982c65c6-3b82-4cf0-9624-1c9715f6fef6.png",
-      tags: ["Biomedical Engineering", "Device Design", "Engineering Assistance", "Medical Technology"],
-      date: "2024",
+      tags: ["Biomedical Engineering", "CAD Modeling", "Design Optimization", "Project Support"],
+      date: "2023 - PRESENT",
       details: [
-        "Assisted in biomedical engineering design course",
-        "Contributed to insulin delivery system development",
-        "Applied engineering principles to medical device design",
-        "Gained experience in biomedical technology",
-        "Collaborated on innovative healthcare solutions"
+        "Assisted students with CAD modeling and design optimization",
+        "Provided technical support to improve manufacturability and feasibility",
+        "Collaborated on problem-solving and refining project concepts",
+        "Supported biomedical engineering students in final-year projects",
+        "Applied engineering principles to biomedical device development"
       ]
     },
     {
