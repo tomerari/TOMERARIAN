@@ -26,7 +26,7 @@ const Projects = () => {
       description: "Biomedical Engineering Project Assistant - Supported biomedical engineering students in developing final-year projects by assisting with modeling and design.",
       image: "/lovable-uploads/982c65c6-3b82-4cf0-9624-1c9715f6fef6.png",
       tags: ["Biomedical Engineering", "CAD Modeling", "Design Optimization", "Project Support"],
-      date: "2023 - PRESENT",
+      date: "2024",
       details: [
         "Assisted students with CAD modeling and design optimization",
         "Provided technical support to improve manufacturability and feasibility",
