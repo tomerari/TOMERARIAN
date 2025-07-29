@@ -22,6 +22,21 @@ const Projects = () => {
     },
     {
       id: 2,
+      title: "Insuload",
+      description: "Assisted in engineering design course for biomedical engineering, developing an innovative insulin delivery system. Gained hands-on experience in biomedical device design and engineering principles.",
+      image: "/lovable-uploads/982c65c6-3b82-4cf0-9624-1c9715f6fef6.png",
+      tags: ["Biomedical Engineering", "Device Design", "Engineering Assistance", "Medical Technology"],
+      date: "2024",
+      details: [
+        "Assisted in biomedical engineering design course",
+        "Contributed to insulin delivery system development",
+        "Applied engineering principles to medical device design",
+        "Gained experience in biomedical technology",
+        "Collaborated on innovative healthcare solutions"
+      ]
+    },
+    {
+      id: 3,
       title: "Lettuce Dryer",
       description: "Designed and built a mechanical lettuce dryer using SolidWorks and technical drawings, gained experience with gears and teamwork in a design project.",
       image: "/lovable-uploads/8524d847-17dd-474b-a254-af10b4c5ad2f.png",
