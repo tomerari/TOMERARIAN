@@ -2,6 +2,9 @@
 import Navigation from '../components/Navigation';
 import ParticleBackground from '../components/ParticleBackground';
 import { Calendar, Tag } from 'lucide-react';
+import slopeMasterImage from '../assets/slope-master-hd.jpg';
+import insuloadImage from '../assets/insuload-hd.jpg';
+import lettuceDryerImage from '../assets/lettuce-dryer-hd.jpg';
 
 const Projects = () => {
   const projects = [
@@ -9,7 +12,7 @@ const Projects = () => {
       id: 1,
       title: "Slope Master",
       description: "Developed a slope-based ball game using Arduino to control moving obstacles, provide feedback on successful attacks. Gained experience in embedded systems, system control, and collaborative project work.",
-      image: "/lovable-uploads/d8c03771-5491-48b8-ab34-a55a8057ae3b.png",
+      image: slopeMasterImage,
       tags: ["Arduino", "Embedded Systems", "Control Systems", "Game Development"],
       date: "2024",
       details: [
@@ -24,7 +27,7 @@ const Projects = () => {
       id: 2,
       title: "Insuload",
       description: "Assisted in engineering design course for biomedical engineering, developing an innovative insulin delivery system. Gained hands-on experience in biomedical device design and engineering principles.",
-      image: "/lovable-uploads/982c65c6-3b82-4cf0-9624-1c9715f6fef6.png",
+      image: insuloadImage,
       tags: ["Biomedical Engineering", "Device Design", "Engineering Assistance", "Medical Technology"],
       date: "2024",
       details: [
@@ -39,7 +42,7 @@ const Projects = () => {
       id: 3,
       title: "Lettuce Dryer",
       description: "Designed and built a mechanical lettuce dryer using SolidWorks and technical drawings, gained experience with gears and teamwork in a design project.",
-      image: "/lovable-uploads/8524d847-17dd-474b-a254-af10b4c5ad2f.png",
+      image: lettuceDryerImage,
       tags: ["SolidWorks", "Mechanical Design", "Gears", "Technical Drawings"],
       date: "2023",
       details: [
