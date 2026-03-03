@@ -36,6 +36,21 @@ const Projects = () => {
       ]
     },
     {
+      id: 4,
+      title: "Chess Clock",
+      description: "Designed and built a digital chess clock using an Arduino Nano microcontroller, chosen for its compact size, along with complex graphic displays to show both players' time simultaneously. The enclosure was 3D printed with threaded inserts to secure the top cover. The main learning objective was gaining experience with displays and Arduino.",
+      image: "/lovable-uploads/chess-clock.png",
+      tags: ["Arduino", "3D Printing", "Embedded Systems", "Electronics"],
+      date: "2024",
+      details: [
+        "Built around an Arduino Nano with graphic displays for simultaneous time display",
+        "Turn transfer mechanism using two buttons — pressing pauses your timer and starts the opponent's",
+        "Additional buttons for selecting game time presets and pausing/resuming the game",
+        "3D-printed enclosure with threaded inserts for secure assembly",
+        "Future improvements planned: buzzer for time-up alert and rechargeable lithium battery for portability"
+      ]
+    },
+    {
       id: 3,
       title: "Lettuce Dryer",
       description: "Designed and built a mechanical lettuce dryer using SolidWorks and technical drawings, gained experience with gears and teamwork in a design project.",
