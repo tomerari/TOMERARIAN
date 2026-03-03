@@ -6,6 +6,36 @@ import { Calendar, Tag } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
+      id: 4,
+      title: "Chess Clock",
+      description: "Designed and built a digital chess clock using an Arduino Nano microcontroller, chosen for its compact size, along with complex graphic displays to show both players' time simultaneously. The enclosure was 3D printed with threaded inserts to secure the top cover. The main learning objective was gaining experience with displays and Arduino.",
+      image: "/lovable-uploads/chess-clock.png",
+      tags: ["Arduino", "3D Printing", "Embedded Systems", "Electronics"],
+      date: "2025",
+      details: [
+        "Built around an Arduino Nano with graphic displays for simultaneous time display",
+        "Turn transfer mechanism using two buttons — pressing pauses your timer and starts the opponent's",
+        "Additional buttons for selecting game time presets and pausing/resuming the game",
+        "3D-printed enclosure with threaded inserts for secure assembly",
+        "Future improvements planned: buzzer for time-up alert and rechargeable lithium battery for portability"
+      ]
+    },
+    {
+      id: 5,
+      title: "Alvik Sumo Robot",
+      description: "Built an autonomous sumo robot on the Arduino Alvik platform for a mechatronics lab competition. The team designed and 3D-printed a custom shell using SolidWorks to push opponents and conquer a central hill in a 2-meter arena. The robot navigates autonomously using onboard sensors including a color sensor to detect arena boundaries and an IMU for orientation.",
+      image: "/lovable-uploads/sumo-robot.png",
+      tags: ["Arduino", "SolidWorks", "3D Printing", "Autonomous Systems", "Mechatronics"],
+      date: "2025",
+      details: [
+        "Autonomous navigation using encoders, IMU, and color/line sensors for arena edge detection",
+        "Custom 3D-printed shell designed in SolidWorks for pushing opponents off the arena",
+        "State machine logic for searching, attacking, and defending strategies",
+        "Wireless data logging of sensor readings and state transitions during matches",
+        "Competed in a 10-minute match to capture and hold the central hill"
+      ]
+    },
+    {
       id: 1,
       title: "Slope Master",
       description: "Developed a slope-based ball game using Arduino to control moving obstacles, provide feedback on successful attacks. Gained experience in embedded systems, system control, and collaborative project work.",
@@ -33,21 +63,6 @@ const Projects = () => {
         "Applied engineering principles to medical device design",
         "Gained experience in biomedical technology",
         "Collaborated on innovative healthcare solutions"
-      ]
-    },
-    {
-      id: 4,
-      title: "Chess Clock",
-      description: "Designed and built a digital chess clock using an Arduino Nano microcontroller, chosen for its compact size, along with complex graphic displays to show both players' time simultaneously. The enclosure was 3D printed with threaded inserts to secure the top cover. The main learning objective was gaining experience with displays and Arduino.",
-      image: "/lovable-uploads/chess-clock.png",
-      tags: ["Arduino", "3D Printing", "Embedded Systems", "Electronics"],
-      date: "2025",
-      details: [
-        "Built around an Arduino Nano with graphic displays for simultaneous time display",
-        "Turn transfer mechanism using two buttons — pressing pauses your timer and starts the opponent's",
-        "Additional buttons for selecting game time presets and pausing/resuming the game",
-        "3D-printed enclosure with threaded inserts for secure assembly",
-        "Future improvements planned: buzzer for time-up alert and rechargeable lithium battery for portability"
       ]
     },
     {
