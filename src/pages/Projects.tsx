@@ -41,7 +41,7 @@ const Projects = () => {
       description: "Designed and built a digital chess clock using an Arduino Nano microcontroller, chosen for its compact size, along with complex graphic displays to show both players' time simultaneously. The enclosure was 3D printed with threaded inserts to secure the top cover. The main learning objective was gaining experience with displays and Arduino.",
       image: "/lovable-uploads/chess-clock.png",
       tags: ["Arduino", "3D Printing", "Embedded Systems", "Electronics"],
-      date: "2024",
+      date: "2025",
       details: [
         "Built around an Arduino Nano with graphic displays for simultaneous time display",
         "Turn transfer mechanism using two buttons — pressing pauses your timer and starts the opponent's",
@@ -90,7 +90,7 @@ const Projects = () => {
                     <img 
                       src={project.image} 
                       alt={project.title}
-                      className="w-full h-64 lg:h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                      className="w-full h-64 lg:h-full object-contain bg-gray-100 transition-transform duration-300 group-hover:scale-105"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
                   </div>
