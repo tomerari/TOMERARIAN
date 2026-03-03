@@ -159,19 +159,13 @@ const Projects = () => {
             ))}
           </div>
 
-          <div className="mt-16 text-center">
-            <div className="bg-gradient-to-br from-blue-600 to-indigo-700 rounded-xl shadow-lg p-8 text-white">
-              <h2 className="text-3xl font-bold mb-4">Interested in My Work?</h2>
-              <p className="text-xl mb-6 opacity-90">
-                I'm always excited to discuss new projects and opportunities
-              </p>
-              <a 
-                href="mailto:tomerarian558@gmail.com"
-                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 rounded-lg font-semibold inline-flex items-center space-x-2 transition-all duration-200 transform hover:scale-105"
-              >
-                <span>Get In Touch</span>
-              </a>
-            </div>
+          <div className="mt-16 flex justify-center">
+            <a 
+              href="mailto:tomerarian558@gmail.com"
+              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg"
+            >
+              Email
+            </a>
           </div>
         </div>
       </main>
