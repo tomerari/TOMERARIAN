@@ -23,12 +23,12 @@ const Projects = () => {
     {
       id: 5,
       title: "Alvik Sumo Robot",
-      description: "Built an autonomous sumo robot on the Arduino Alvik platform for a mechatronics lab competition. The team designed and 3D-printed a custom shell using SolidWorks to push opponents and conquer a central hill in a 2-meter arena. The robot navigates autonomously using onboard sensors including a color sensor to detect arena boundaries and an IMU for orientation.",
+      description: "Assisted in building an autonomous sumo robot on the Arduino Alvik platform for a mechatronics lab competition. The team designed and 3D-printed a custom shell using SolidWorks to push opponents and conquer a central hill in a 2-meter arena. The robot navigates autonomously using onboard sensors including a color sensor to detect arena boundaries.",
       image: "/lovable-uploads/sumo-robot.png",
       tags: ["Arduino", "SolidWorks", "3D Printing", "Autonomous Systems", "Mechatronics"],
       date: "2025",
       details: [
-        "Autonomous navigation using encoders, IMU, and color/line sensors for arena edge detection",
+        "Autonomous navigation using encoders and color sensor for arena edge detection",
         "Custom 3D-printed shell designed in SolidWorks for pushing opponents off the arena",
         "State machine logic for searching, attacking, and defending strategies",
         "Wireless data logging of sensor readings and state transitions during matches",

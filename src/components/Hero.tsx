@@ -22,10 +22,7 @@ const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
-              <a href="/resume" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg">
-                View Resume
-              </a>
-              <a href="/projects" className="bg-transparent hover:bg-black/10 text-black border-2 border-black px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105">
+              <a href="/projects" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg">
                 View Projects
               </a>
             </div>
