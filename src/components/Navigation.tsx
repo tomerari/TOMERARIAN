@@ -1,6 +1,6 @@
 
 import { Link, useLocation } from 'react-router-dom';
-import { FileText, FolderOpen, Home, Menu, X } from 'lucide-react';
+import { FolderOpen, Home, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
 const Navigation = () => {
@@ -10,7 +10,6 @@ const Navigation = () => {
 
   const navItems = [
     { path: '/', label: 'Home', icon: Home },
-    { path: '/resume', label: 'Resume', icon: FileText },
     { path: '/projects', label: 'Projects', icon: FolderOpen },
   ];
 
