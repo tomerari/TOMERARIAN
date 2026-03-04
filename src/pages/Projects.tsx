@@ -159,14 +159,6 @@ const Projects = () => {
             ))}
           </div>
 
-          <div className="mt-16 flex justify-center">
-            <a 
-              href="mailto:tomerarian558@gmail.com"
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg"
-            >
-              Email
-            </a>
-          </div>
         </div>
       </main>
     </div>

@@ -1,6 +1,15 @@
 import ParticleBackground from './ParticleBackground';
-import { Linkedin } from 'lucide-react';
+import { Linkedin, Copy, Check } from 'lucide-react';
+import { useState } from 'react';
 const Hero = () => {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopyEmail = () => {
+    navigator.clipboard.writeText('tomerarian558@gmail.com');
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
   return <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <ParticleBackground />
       
@@ -36,11 +45,13 @@ const Hero = () => {
                 <img src="/lovable-uploads/7c02b1b5-5612-462b-a052-e921cf31f614.png" alt="FIDE" className="w-5 h-5" />
                 <span>FIDE</span>
               </a>
-            </div>
-
-            <div className="text-center lg:text-left">
-              
-              
+              <button 
+                onClick={handleCopyEmail}
+                className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105"
+              >
+                {copied ? <Check size={20} /> : <Copy size={20} />}
+                <span>{copied ? 'Copied!' : 'Email'}</span>
+              </button>
             </div>
           </div>
         </div>
