@@ -29,12 +29,7 @@ const Hero = () => {
             <p className="text-lg text-gray-700 mb-8 max-w-3xl leading-relaxed">
               Motivated and analytical problem solver with a strong ability to learn quickly and adapt to new challenges. Experienced in small-scale projects, with a hands-on approach to problem-solving and process optimization. Eager to apply my knowledge and skills in a dynamic environment while continuously expanding my expertise.
             </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
-              <a href="/projects" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg">
-                View Projects
-              </a>
-            </div>
+
 
             <div className="flex justify-center lg:justify-start gap-6 mb-6">
               <a href="https://www.linkedin.com/in/tomerarian/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-3 rounded-lg font-semibold transition-all duration-200 transform hover:scale-105">
