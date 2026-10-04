@@ -9,7 +9,7 @@ const Projects = () => {
     {
       id: 6,
       title: "Alpaca Project",
-      description: "The ALPACA project aimed to design and manufacture a combined end-effector for an educational robotic arm in the Industrial Engineering and Management laboratory at Tel Aviv University. To solve the limitation of the robot's interface only accommodating one tool at a time, the team developed a single, 3D-printed assembly that successfully integrates both a mechanical gripper and a suction nozzle.",
+      description: "The Alpaca project aimed to design and manufacture a combined end-effector for an educational robotic arm in the Industrial Engineering and Management laboratory at Tel Aviv University. To solve the limitation of the robot's interface only accommodating one tool at a time, the team developed a single, 3D-printed assembly that successfully integrates both a mechanical gripper and a suction nozzle.",
       image: alpacaProjectImg.url,
       tags: ["CAD Design", "3D Printing", "Robotics", "Mechanical Design"],
       date: "2026",

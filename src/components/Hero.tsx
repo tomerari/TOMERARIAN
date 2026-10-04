@@ -23,7 +23,7 @@ const Hero = () => {
             <h1 className="text-5xl md:text-7xl font-bold text-black mb-6">
               Tomer Arian
             </h1>
-            <p className="text-3xl md:text-4xl font-bold text-black mb-8 max-w-2xl">
+            <p className="text-xl md:text-2xl text-gray-800 mb-8 max-w-2xl">
               Mechanical Engineer
             </p>
             <p className="text-lg text-gray-700 mb-8 max-w-3xl leading-relaxed">
