@@ -1,10 +1,20 @@
 
 import Navigation from '../components/Navigation';
 import ParticleBackground from '../components/ParticleBackground';
+import alpacaProjectImg from '../assets/alpaca-project.jpg.asset.json';
 import { Calendar, Tag } from 'lucide-react';
 
 const Projects = () => {
   const projects = [
+    {
+      id: 6,
+      title: "Alpaca Project",
+      description: "Description coming soon.",
+      image: alpacaProjectImg.url,
+      tags: [],
+      date: "2026",
+      details: []
+    },
     {
       id: 4,
       title: "Chess Clock",
