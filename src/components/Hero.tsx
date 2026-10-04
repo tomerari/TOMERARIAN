@@ -24,7 +24,7 @@ const Hero = () => {
               Tomer Arian
             </h1>
             <p className="text-xl md:text-2xl text-gray-800 mb-8 max-w-2xl">
-              Mechanical Engineering Student
+              Mechanical Engineer
             </p>
             <p className="text-lg text-gray-700 mb-8 max-w-3xl leading-relaxed">
               Motivated and analytical problem solver with a strong ability to learn quickly and adapt to new challenges. Experienced in small-scale projects, with a hands-on approach to problem-solving and process optimization. Eager to apply my knowledge and skills in a dynamic environment while continuously expanding my expertise.
