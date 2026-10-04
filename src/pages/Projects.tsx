@@ -134,34 +134,38 @@ const Projects = () => {
                         {project.description}
                       </p>
                       
-                      <div className="mb-6">
-                        <h4 className="font-semibold text-gray-900 mb-3">Key Achievements:</h4>
-                        <ul className="space-y-2">
-                          {project.details.map((detail, index) => (
-                            <li key={index} className="flex items-start space-x-2">
-                              <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
-                              <span className="text-gray-700 text-sm">{detail}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
+                      {project.details.length > 0 && (
+                        <div className="mb-6">
+                          <h4 className="font-semibold text-gray-900 mb-3">Key Achievements:</h4>
+                          <ul className="space-y-2">
+                            {project.details.map((detail, index) => (
+                              <li key={index} className="flex items-start space-x-2">
+                                <div className="w-2 h-2 bg-blue-600 rounded-full mt-2 flex-shrink-0"></div>
+                                <span className="text-gray-700 text-sm">{detail}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
                       
-                      <div className="mb-6">
-                        <div className="flex items-center space-x-2 mb-3">
-                          <Tag size={16} className="text-gray-500" />
-                          <span className="text-sm font-medium text-gray-700">Technologies Used:</span>
+                      {project.tags.length > 0 && (
+                        <div className="mb-6">
+                          <div className="flex items-center space-x-2 mb-3">
+                            <Tag size={16} className="text-gray-500" />
+                            <span className="text-sm font-medium text-gray-700">Technologies Used:</span>
+                          </div>
+                          <div className="flex flex-wrap gap-2">
+                            {project.tags.map((tag) => (
+                              <span 
+                                key={tag} 
+                                className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium"
+                              >
+                                {tag}
+                              </span>
+                            ))}
+                          </div>
                         </div>
-                        <div className="flex flex-wrap gap-2">
-                          {project.tags.map((tag) => (
-                            <span 
-                              key={tag} 
-                              className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium"
-                            >
-                              {tag}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
+                      )}
                     </div>
                   </div>
                 </div>
