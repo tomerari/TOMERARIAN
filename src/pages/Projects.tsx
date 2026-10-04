@@ -9,11 +9,17 @@ const Projects = () => {
     {
       id: 6,
       title: "Alpaca Project",
-      description: "Description coming soon.",
+      description: "The ALPACA project aimed to design and manufacture a combined end-effector for an educational robotic arm in the Industrial Engineering and Management laboratory at Tel Aviv University. To solve the limitation of the robot's interface only accommodating one tool at a time, the team developed a single, 3D-printed assembly that successfully integrates both a mechanical gripper and a suction nozzle.",
       image: alpacaProjectImg.url,
-      tags: [],
+      tags: ["CAD Design", "3D Printing", "Robotics", "Mechanical Design"],
       date: "2026",
-      details: []
+      details: [
+        "Designed a single 3D-printed assembly integrating both a mechanical gripper and a suction nozzle",
+        "Optimized the design through iterative CAD refinement to work with a lightweight, inexpensive servo motor",
+        "Enabled both tools to function simultaneously while remaining compact",
+        "Meets strict payload constraints at only 163 grams (190 grams with the optional camera attachment)",
+        "Costs approximately 52 NIS to produce; the final model has been sent to the manufacturer for potential implementation"
+      ]
     },
     {
       id: 4,
